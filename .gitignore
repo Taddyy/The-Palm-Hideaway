@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.log
+http_server.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Vercel
+.vercel
+.vercel/*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+

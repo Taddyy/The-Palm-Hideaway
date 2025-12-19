@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Palm Hideaway | Về chúng tôi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Maven+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="page-about">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html#hero">
+          <img src="SVG/Logo_Header.svg" alt="The Palm Hideaway logo" class="brand-logo">
+        </a>
+      </div>
+      <nav class="nav-desktop">
+        <a href="index.html#hero">Trang chủ</a>
+        <a href="services.html#hero">Dịch vụ</a>
+        <a href="menu.html#hero">Thực đơn</a>
+        <a href="#hero">Về chúng tôi</a>
+        <a href="contact.html#hero">Liên hệ</a>
+      </nav>
+      <div class="header-actions">
+        <a class="hotline" href="tel:+84906731543">
+          <img src="SVG/Phone.svg" alt="" class="hotline-icon"> 0906-731-543
+        </a>
+        <a class="btn btn-primary" href="contact.html">Đặt phòng ngay</a>
+        <button class="nav-toggle" aria-label="Mở menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-mobile" id="mobile-menu">
+      <a href="index.html#hero">Trang chủ</a>
+      <a href="services.html#hero">Dịch vụ</a>
+      <a href="menu.html#hero">Thực đơn</a>
+      <a href="#hero">Về chúng tôi</a>
+      <a href="contact.html#hero">Liên hệ</a>
+      <a class="hotline" href="tel:+84906731543">Hotline</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg-layer active" style="background-image:url('Image/Header_1.png');"></div>
+      <div class="hero-bg-layer" style="background-image:url('Image/Header_2.png');"></div>
+      <div class="hero-bg-layer" style="background-image:url('Image/Header_3.png');"></div>
+      <div class="hero-tint"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-meta">
+        <div>10.2899° N, 103.9840° E</div>
+        <div>PHU QUOC ISLAND, 2024</div>
+      </div>
+
+      <div class="hero-brand">
+        <h1>THE PALM<br>HIDEAWAY</h1>
+      </div>
+      <div class="hero-copy">
+        <p class="hero-headline">Tuyệt tác nghỉ dưỡng giữa lòng Đảo Ngọc.</p>
+        <p class="hero-body">Tạm gác lại những ồn ào của phố thị để đắm mình vào bản giao hưởng của sóng và gió. Tại The Palm Hideaway, chúng tôi kiến tạo một ốc đảo biệt lập bên bờ biển Ông Lang, nơi thiên nhiên nguyên sơ sẽ ôm ấp và chữa lành mọi giác quan của bạn.</p>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="contact.html">Đặt phòng ngay</a>
+        <a class="btn btn-ghost dark" href="services.html#services">Xem thêm</a>
+      </div>
+    </section>
+
+    <section class="filter-bar" id="booking">
+      <div class="filter-surface">
+        <div class="filter-field">
+          <label for="roomtype">Loại phòng</label>
+          <select id="roomtype" name="roomtype">
+            <option value="">Loại phòng</option>
+            <option value="garden">Garden Pool Villa</option>
+            <option value="beachfront">Beachfront Villa</option>
+            <option value="suite">Suite</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="price">Giá</label>
+          <select id="price" name="price">
+            <option value="">Giá</option>
+            <option value="5-7">5 - 7 triệu</option>
+            <option value="7-10">7 - 10 triệu</option>
+            <option value="10+">Trên 10 triệu</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="location">Địa điểm</label>
+          <select id="location" name="location">
+            <option value="">Địa điểm</option>
+            <option value="phu-quoc">Phú Quốc</option>
+            <option value="ha-noi">Hà Nội</option>
+            <option value="da-nang">Đà Nẵng</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="style">Phong cách</label>
+          <select id="style" name="style">
+            <option value="">Phong cách</option>
+            <option value="eco">Eco-chic</option>
+            <option value="family">Gia đình</option>
+            <option value="romantic">Lãng mạn</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="button">Tìm kiếm</button>
+      </div>
+    </section>
+
+    <section class="about-story" id="about-story">
+      <div class="about-story__inner">
+      <article class="story-block">
+        <div class="story-gallery">
+          <figure class="story-photo is-large">
+            <img src="Image/14.jpg" alt="Lối đi nghỉ dưỡng ven biển tại The Palm Hideaway">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-tall">
+            <img src="Image/15.jpg" alt="Không gian hồ bơi riêng tư với ghế tắm nắng">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-large is-offset">
+            <img src="Image/16.jpg" alt="Góc chill dưới hàng dừa tại khu nghỉ dưỡng">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+        </div>
+        <div class="story-copy">
+          <p class="story-kicker">The Palm Hideaway</p>
+          <h2 class="story-title">Tuyệt tác nghỉ dưỡng giữa lòng Đảo Ngọc</h2>
+          <div class="story-body">
+            <p>Chào mừng bạn đến với The Palm Hideaway – ốc đảo biệt lập giữa rừng dừa Bãi Ông Lang, mang đến trải nghiệm nghỉ dưỡng sang trọng nhưng vẫn giữ trọn sự riêng tư.</p>
+            <p>Bản giao hưởng của hương vị Ocean-to-Table được chúng tôi dẫn dắt bằng nguồn nguyên liệu tươi mới nhất, tôn vinh ngư trường Phú Quốc qua từng món ăn.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-block story-block--reverse story-block--tint">
+        <div class="story-gallery">
+          <figure class="story-photo is-large">
+            <img src="Image/17.jpg" alt="Kiến trúc gỗ hòa cùng thiên nhiên Phú Quốc">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-wide">
+            <img src="Image/18.jpg" alt="Lối đi lát gỗ giữa khuôn viên xanh mát">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-tall is-offset">
+            <img src="Image/19.jpg" alt="Không gian mở hướng ra biển với mái hiên gỗ">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+        </div>
+        <div class="story-copy">
+          <p class="story-kicker">Kiến trúc</p>
+          <h2 class="story-title">Kiến trúc “Chạm” vào Thiên nhiên</h2>
+          <div class="story-body">
+            <p>Lấy cảm hứng từ làng chài ven biển, The Palm Hideaway sử dụng gỗ, tre, đá cuội và ánh sáng tự nhiên để kể câu chuyện về biển cả và rừng nhiệt đới.</p>
+            <p>Mỗi villa được đặt giữa tán dừa để giữ trọn bóng mát và gió biển, mang đến không gian nghỉ dưỡng vừa tinh tế vừa gần gũi.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-block">
+        <div class="story-gallery">
+          <figure class="story-photo is-tall">
+            <img src="Image/20.jpg" alt="Hồ bơi nhìn ra biển tại The Palm Hideaway">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-large">
+            <img src="Image/21.jpg" alt="Góc thư giãn với ghế tắm nắng sát biển">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-wide is-offset">
+            <img src="Image/22.jpg" alt="Không gian ngoài trời với thiên nhiên bao quanh">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+        </div>
+        <div class="story-copy">
+          <p class="story-kicker">Trải nghiệm</p>
+          <h2 class="story-title">Đánh thức mọi giác quan</h2>
+          <div class="story-body">
+            <p>Nghỉ dưỡng tại The Palm Hideaway là hành trình cảm nhận trọn vẹn hương biển, vị nắng và thanh âm của rừng dừa hòa với tiếng sóng.</p>
+            <p class="story-highlight">Ocean-to-Table: hải sản được đánh bắt mỗi sáng, chế biến tươi mới cùng rau củ thu hoạch trực tiếp từ vườn hữu cơ của resort.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="story-block story-block--reverse story-block--tint">
+        <div class="story-gallery">
+          <figure class="story-photo is-wide">
+            <img src="Image/23.jpg" alt="Bữa sáng nổi tại hồ bơi riêng tư">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-large">
+            <img src="Image/24.jpg" alt="Không gian thư giãn ngoài trời tại The Palm Hideaway">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+          <figure class="story-photo is-tall is-offset">
+            <img src="Image/25.jpg" alt="Khu vực ghế nằm cạnh hồ bơi nhìn ra biển">
+            <div class="story-overlay">
+              <div class="story-overlay__scrim"></div>
+              <a class="btn btn-primary story-overlay__cta" href="contact.html">Đặt phòng ngay</a>
+            </div>
+          </figure>
+        </div>
+        <div class="story-copy">
+          <p class="story-kicker">Trải nghiệm cá nhân hóa</p>
+          <h2 class="story-title">Hơn cả một kỳ nghỉ</h2>
+          <div class="story-body">
+            <p>The Palm Hideaway kiến tạo hệ sinh thái trải nghiệm đa giác quan cho mọi thành viên trong gia đình, vượt xa một kỳ nghỉ tiêu chuẩn.</p>
+            <ul class="story-bullets">
+              <li>Picnic hoàng hôn riêng tư trên bãi cát Ông Lang.</li>
+              <li>Yoga và thiền sáng trên sàn gỗ hướng biển.</li>
+              <li>Floating breakfast tại hồ bơi riêng tư của villa.</li>
+              <li>Lộ trình spa detox với thảo mộc và muối biển địa phương.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="section rooms" id="rooms">
+      <div class="rooms-marquee">
+        <div class="marquee-track">
+          <span>Các loại phòng · Các loại phòng · Các loại phòng · Các loại phòng · </span>
+          <span>Các loại phòng · Các loại phòng · Các loại phòng · Các loại phòng · </span>
+        </div>
+      </div>
+
+      <div class="rooms-pin">
+        <div class="rooms-inner">
+          <div class="rooms-overlay"></div>
+          <div class="room-rail">
+            <article class="room-card fade-up" style="background-image:url('Image/6.png')">
+              <div class="room-content">
+                <h3>Oceanfront Bungalow</h3>
+                <p class="room-sub">Căn gỗ mộc sát biển, chỉ cách sóng nước vài bước chân.</p>
+                <p class="room-meta">45m² · 2 Người · Hướng biển.</p>
+                <div class="room-price">Từ 2,500,000 VND/đêm.</div>
+                <div class="room-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="room-card fade-up" style="background-image:url('Image/5.png')">
+              <div class="room-content">
+                <h3>Hilltop Pool Villa</h3>
+                <p class="room-sub">Biệt thự trên đồi với hồ bơi cực riêng tư, ôm trọn hoàng hôn.</p>
+                <p class="room-meta">120m² · 4 Người · Hồ bơi riêng.</p>
+                <div class="room-price">Từ 5,800,000 VND/đêm.</div>
+                <div class="room-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="room-card fade-up" style="background-image:url('Image/7.png')">
+              <div class="room-content">
+                <h3>Garden Family Suite</h3>
+                <p class="room-sub">Không gian rộng rãi, ẩn mình giữa vườn dừa xanh mát, yên tĩnh tuyệt đối.</p>
+                <p class="room-meta">80m² · 4 Người · Hướng vườn.</p>
+                <div class="room-price">Từ 3,200,000 VND/đêm.</div>
+                <div class="room-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="room-card fade-up" style="background-image:url('Image/8.png')">
+              <div class="room-content">
+                <h3>Sky Panorama Suite</h3>
+                <p class="room-sub">Ban công rộng đón trọn vòm trời, tầm nhìn vịnh và thung lũng tre xanh trùng điệp.</p>
+                <p class="room-meta">68m² · 4 Người · View toàn cảnh.</p>
+                <div class="room-price">Từ 4,500,000 VND/đêm.</div>
+                <div class="room-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="room-card fade-up" style="background-image:url('Image/9.png')">
+              <div class="room-content">
+                <h3>Ocean Edge Villa</h3>
+                <p class="room-sub">Biệt thự vươn sát bờ đá, vài bước chạm tay vào sóng biển lấp lánh.</p>
+                <p class="room-meta">98m² · 2 Người · Đối diện biển.</p>
+                <div class="room-price">Từ 6,200,000 VND/đêm.</div>
+                <div class="room-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section offers" id="offers">
+      <div class="offers-marquee">
+        <div class="offers-track">
+          <span>Special offers · Special offers · Special offers · Special offers · </span>
+          <span>Special offers · Special offers · Special offers · Special offers · </span>
+        </div>
+      </div>
+
+      <div class="offers-pin">
+        <div class="offers-inner">
+          <div class="offers-overlay"></div>
+          <div class="offer-rail">
+            <article class="offer-card fade-up">
+              <div class="offer-thumb" style="background-image:url('Image/12.jpg')"></div>
+              <div class="offer-body">
+                <h3>Honeymoon Package</h3>
+                <p class="offer-sub">Kỳ Trăng Mật Ngọt Ngào</p>
+                <p class="offer-desc">
+                  3 ngày 2 đêm tại Oceanfront Bungalow. Tận hưởng khoảnh khắc riêng tư với bờ biển dài ánh nến,
+                  liệu trình Spa đôi và rượu vang chào mừng.
+                </p>
+                <div class="offer-meta">
+                  <span class="offer-label">Giá:</span>
+                  <span class="offer-price">Chỉ từ 8,500,000 VND</span>
+                </div>
+                <div class="offer-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="offer-card fade-up">
+              <div class="offer-thumb" style="background-image:url('Image/13.jpg')"></div>
+              <div class="offer-body">
+                <h3>Family Package</h3>
+                <p class="offer-sub">Mùa Hè Gắn Kết</p>
+                <p class="offer-desc">
+                  Kỳ nghỉ tại Biệt thự Garden Pool 2 phòng ngủ, tặng kèm tiệc nướng BBQ sân vườn,
+                  miễn phí giường phụ và các hoạt động vui chơi cho bé.
+                </p>
+                <div class="offer-meta">
+                  <span class="offer-label">Giá:</span>
+                  <span class="offer-price">Trọn gói 12,000,000 VND / 2 đêm</span>
+                </div>
+                <div class="offer-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="offer-card fade-up">
+              <div class="offer-thumb" style="background-image:url('Image/14.png')"></div>
+              <div class="offer-body">
+                <h3>Workation Retreat</h3>
+                <p class="offer-sub">Văn Phòng Bên Bờ Biển</p>
+                <p class="offer-desc">
+                  Ưu đãi giảm 30% cho kỳ nghỉ dài hạn từ 7 đêm. Bao gồm wifi tốc độ cao riêng biệt,
+                  miễn phí giặt ủi hằng ngày và cà phê không giới hạn.
+                </p>
+                <div class="offer-meta">
+                  <span class="offer-label">Giá:</span>
+                  <span class="offer-price">Chỉ từ 1,800,000 VND / đêm</span>
+                </div>
+                <div class="offer-actions">
+                  <a class="btn btn-primary sm" href="contact.html">Đặt phòng ngay</a>
+                  <a class="btn btn-ghost dark sm" href="services.html">Xem thêm</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section moment-stillness" id="moment-stillness">
+      <div class="moment-overlay"></div>
+      <div class="moment-marquee">
+        <div class="moment-track">
+          <span>Moment of Stillness · </span>
+          <span>Moment of Stillness · </span>
+          <span>Moment of Stillness · </span>
+          <span>Moment of Stillness · </span>
+        </div>
+      </div>
+      <div class="moment-gallery">
+        <div class="moment-image">
+          <img src="Image/26.jpg" alt="Moment of Stillness 1">
+        </div>
+        <div class="moment-image">
+          <img src="Image/27.jpg" alt="Moment of Stillness 2">
+        </div>
+        <div class="moment-image">
+          <img src="Image/28.jpg" alt="Moment of Stillness 3">
+        </div>
+        <div class="moment-image">
+          <img src="Image/29.jpg" alt="Moment of Stillness 4">
+        </div>
+        <div class="moment-image">
+          <img src="Image/30.jpg" alt="Moment of Stillness 5">
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="testimonials-bg"></div>
+      <div class="testimonials-inner fade-in">
+        <button class="testimonial-nav prev" aria-label="Xem testimonial trước">
+          <img src="SVG/Left_arrow.svg" alt="Mũi tên sang trái">
+        </button>
+        <div class="testimonial-content">
+          <p class="testimonial-title">Minh Nhật & Lan Phương | Honeymoon Traveler (Hà Nội)</p>
+          <p class="testimonial-subtitle">Hơn cả một kỳ nghỉ, đó là giấc mơ có thật.</p>
+          <div class="testimonial-stars" aria-hidden="true">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-quote">
+            "Tôi đã đặt gói trăng mật và thực sự bất ngờ. Đội ngũ The Palm không chỉ đặt phòng, họ đã 'thiết kế' riêng cho vợ chồng tôi một bữa tối bí mật dưới ánh nến ngay trên bãi biển. Sự tinh tế và riêng tư tuyệt đối tại đây là điều mà chúng tôi chưa từng tìm thấy ở bất kỳ đâu khác."
+          </p>
+        </div>
+        <button class="testimonial-nav next" aria-label="Xem testimonial tiếp theo">
+          <img src="SVG/Right_arrow.svg" alt="Mũi tên sang phải">
+        </button>
+      </div>
+    </section>
+
+    <section class="section cta-visit" id="cta-visit">
+      <div class="cta-visit__inner">
+        <div class="cta-visit__content">
+          <h2>Hãy đến The Palm Hideaway ngay!</h2>
+          <p class="cta-visit__line">
+            <span class="cta-visit__icon">📍</span>
+            The Palm Hideaway Resort &amp; Spa
+          </p>
+          <p class="cta-visit__line">
+            Bãi Khem, Phường An Thới, TP. Phú Quốc, Tỉnh Kiên Giang
+          </p>
+          <p class="cta-visit__line">
+            <span class="cta-visit__icon">☎</span>
+            Phone: 0906-731-543
+          </p>
+          <div class="cta-visit__actions">
+            <a class="btn btn-primary" href="contact.html">Gửi yêu cầu đặt phòng</a>
+          </div>
+        </div>
+        <div class="cta-visit__image">
+          <img src="Image/31.jpg" alt="Không gian bàn ăn bên biển">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>The Palm Hideaway</h3>
+        <p>
+          Nơi thiên nhiên và sang trọng hòa quyện, tạo nên trải nghiệm nghỉ dưỡng không thể quên giữa lòng Đảo Ngọc Phú Quốc.
+        </p>
+        <img src="SVG/Logo_Footer.svg" alt="The Palm Hideaway" class="footer-logo">
+      </div>
+      <div class="footer-links">
+        <h4>Liên kết</h4>
+        <a href="index.html#hero">Trang chủ</a>
+        <a href="services.html">Dịch vụ</a>
+        <a href="menu.html">Thực đơn</a>
+        <a href="about.html">Về chúng tôi</a>
+        <a href="contact.html">Liên hệ</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Liên hệ</h4>
+        <a href="tel:+842971234567">+84 297 123 4567</a>
+        <a href="mailto:resort@thepalmhideaway.com">resort@thepalmhideaway.com</a>
+        <p>Bãi Khem</p>
+        <p>Phú Quốc, Kiên Giang</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 The Palm Hideaway. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Room Detail Modal -->
+  <div id="room-modal" class="room-modal" style="display: none;">
+    <div class="room-modal__overlay"></div>
+    <div class="room-modal__content">
+      <button class="room-modal__close" aria-label="Đóng modal">×</button>
+      <div class="room-modal__image">
+        <img id="room-modal-img" src="" alt="">
+      </div>
+      <div class="room-modal__body">
+        <h2 id="room-modal-title" class="room-modal__title"></h2>
+        <p id="room-modal-sub" class="room-modal__sub"></p>
+        <div id="room-modal-meta" class="room-modal__meta"></div>
+        <div id="room-modal-price" class="room-modal__price"></div>
+        <div id="room-modal-details" class="room-modal__details"></div>
+        <div class="room-modal__actions">
+          <a id="room-modal-book" class="btn btn-primary" href="contact.html">Đặt phòng ngay</a>
+          <button class="btn btn-ghost dark room-modal__close-btn">Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
